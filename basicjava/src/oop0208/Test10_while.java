@@ -24,6 +24,26 @@ public class Test10_while {
 				break;
 			}
 		}//while end
+		System.out.println();
+		
+		//--------------------------------------------------
+		/*do ~ while*/
+		//do{
+		//  조건이 true이면 수행
+		//}while(조건);
+		
+		int c = 1;
+		do {
+			System.out.println("JEJU");
+			c=c+1;
+		}while(c<=3);
+		System.out.println();
+		//do~while문은 조건이 틀리더라도 한번은 수행한다.
+		int d=10;
+		do {
+			System.out.println("BUSAN");
+			d=d+1;
+		}while(d<=5);
 		
 		
 		
