@@ -6,6 +6,7 @@ public class Test12_Homework {
 		//한줄에 알파벳을 5개씩 출력하기
 		char A = 'A';		
 		char Z = 'Z';
+		
 		int count = 0;
 		for(char a = A ; a<=Z ; a++) {
 			if(count%5==0) {
@@ -23,14 +24,14 @@ public class Test12_Homework {
 		// 10-3 = 7 ,  7-3 = 4 , 4-3 = 1 , 1-3 = -2  =>4번만에 나옴
 		//무한루프에 break 걸기
 		
-		int a=10, b=3;
+		int a=10, c=a, b=3;
 		int count2=1;
-		while(a-b>=0) {
-			a = a-b;
+		while(c-b>0) {
+			c = c-b;
 			count2++;
 		}
-		System.out.println(count2);
-		
+		System.out.println(a+"값에서 "+b+"값을 "+count2+"번 뺏을때 음수가 됩니다.");
+		System.out.println();
 		
 		//과제3)
 		//어느 달팽이는 낮에는 3cm올라가고
@@ -39,7 +40,15 @@ public class Test12_Homework {
 		//며칠이 걸리는지 구하시오.
 		//->무한루프에 break걸기
 		
-		
+		//int oneDay = 0.5;
+		int top = 13;
+		int dayCount = 0;
+
+		for(float oneDay = 0 ; oneDay <= top ; oneDay += 0.5){
+		dayCount++;
+		}
+		System.out.println("달팽이가 "+top+"cm 올라가는데 "+dayCount+"일 걸립니다.");
+
 		
 	}//main() end
 }//class
