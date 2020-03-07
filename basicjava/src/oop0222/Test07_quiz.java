@@ -64,5 +64,4 @@ public class Test07_quiz {
 		System.out.println(codes);
 		System.out.println("³ªÀÌ : "+age);
 	}
-
 }
