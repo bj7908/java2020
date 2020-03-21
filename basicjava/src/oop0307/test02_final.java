@@ -1,7 +1,5 @@
 package oop0307;
 
-import javax.xml.ws.WebFault;
-
 /*
 final class Animal{ //종단클래스
 		      		//->상속을 시킬수 없다
